@@ -1,0 +1,93 @@
+/* Images */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: black;
+	background-image: url(https://previews.123rf.com/images/goosefrol/goosefrol1801/goosefrol180100007/93960767-dog-face-cartoon-vector-illustrations-set.jpg);
+	background-size: contain   ;
+
+	color: black;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	line-height: 1.4;
+	font-size: 16px;
+	margin: 0.25em;
+	text-align: center;
+}
+
+body {
+  background-color: black;
+  font-family: cursive;
+}
+
+h1 {
+	display: block;
+    font-size: 3em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h2{
+ 
+    font-family: 'Pacifico', cursive;
+    position: absolute;
+    display: block;
+    font-size: 4em;
+    margin-block-start: 0.8em;
+    margin-block-end: 0.67em;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+}
+
+.flash{
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: flash 2s ease-in-out infinite alternate;
+  -moz-animation: flash 2s ease-in-out infinite alternate;
+  
+  animation: flash 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes flash {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #9C27B0, 0 0 40px #9C27B0, 0 0 50px #9C27B0, 0 0 60px #9C27B0, 0 0 70px #9C27B0, 0 0 80px #673AB7;
+  }
+}
+
+h1{
+	animation: text-flicker 3s linear infinite;
+}
+
+img { 
+	max-width: 100%;
+}
+
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	
+
+}
+
+.item {
+	width: 50%;
+	padding: 0.5em;
+}
+
+webkit-scrollbar-thumb {
+    background: purple;
+    border-radius: 10px;
+}
