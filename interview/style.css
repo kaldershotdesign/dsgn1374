@@ -1,0 +1,124 @@
+/* Interview */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: black;
+	color: white;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	line-height: 1.4;
+	font-size: 16px;
+	margin: 0.25em;
+	overflow-x: hidden;
+	justify-content: center;
+	position: absolute;
+	border: 20px solid #f31807;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 100%;
+}
+
+
+.q {
+	font-family: 'Xanh Mono', monospace;
+	padding: 0.25em;
+}
+
+.a {
+	font-family: 'Inconsolata', monospace;
+	padding: 0.5em;
+	margin-bottom: 5em;
+}
+
+
+h2, p {
+	margin: 0 0 1em 0;
+	font-size: 1em;
+	padding: 0;
+	line-height: 1.3;
+	vertical-align: baseline;
+}
+
+
+main {
+    margin-left: auto;
+    max-width: 60em;
+    margin-right: auto;
+}
+
+h1 {
+    display: inline-block;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    border: 1px solid;
+    margin-top: .1em;
+    margin-bottom: .3em;
+    padding: 0em;
+    border-radius: 1em;
+    animation: text-flicker 3s linear infinite;
+
+}
+
+header {
+    text-align: center;
+    margin: 6em 0;
+}
+
+section {
+    max-width: 24em;
+    margin: 0px 73px;
+    padding: 1em 1em;
+    transition: all 0.5s ease;
+    filter: blur(3px);
+}
+section:nth-child(1) {
+	transform: scale(1);
+	
+}
+section:nth-child(2) {
+	transform: scale(1);
+}
+section:nth-child(3) {
+	transform: scale(1);
+}
+section:nth-child(4) {
+	transform: scale(1);
+}
+section:nth-child(5) {
+	transform: scale(1);
+}
+section:nth-child(6) {
+	transform: scale(1);
+}
+
+section:hover {
+	transform: rotate(0) scale(1.5) translate(0);
+	filter:blur(0);
+}
+
+.flash{
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: flash 2s ease-in-out infinite alternate;
+  -moz-animation: flash 2s ease-in-out infinite alternate;
+  
+  animation: flash 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes flash {
+  from {
+    text-shadow: 0 0 10px #070606, 0 0 20px #111, 0 0 30px #ed0b0b, 0 0 40px #800404, 0 0 50px #2e269d, 0 0 60px #900c0c, 0 0 70px #e90d0d;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #0a0a0a, 0 0 30px #080101, 0 0 40px #ec1010, 0 0 50px #e84848, 0 0 60px #030108, 0 0 70px #711616, 0 0 80px #00030c;
+  }
+}
+
