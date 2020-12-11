@@ -132,9 +132,8 @@ a:hover {
     text-transform: uppercase;
     display: inline-block;
     margin: 0 0 1em 0;
-    position: absolute;
-    left: 31%;
-    top: 50%;
+   
+  
 }
 
 .button:hover {
@@ -144,6 +143,25 @@ a:hover {
 
 }
 
+.buttons {
+	border: 1px solid white;
+    border-radius: 2em;
+    padding: 1em 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0 0 1em 0;
+    position: absolute;
+    left: 31%;
+    top: 50%;
+}
+
+.buttons:hover {
+	background-color: #ff0b0b;
+	color: #70c0ff;
+
+
+}
 
 
 
